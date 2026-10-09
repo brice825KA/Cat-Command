@@ -11,5 +11,7 @@ int main(int argc, char **argv) {
         help();
         return 0;
     }
+    for (auto i = 1; argv[i]; i += 1)
+        my_cat(argv[i]);
     return 0;
 }

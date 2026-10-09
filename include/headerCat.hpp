@@ -9,6 +9,7 @@
     using namespace std;
 
 void help();
-void my_cat(char *filepath)
+void my_cat(char *filepath);
+void print_ligne(char *ligne);
     
 #endif
